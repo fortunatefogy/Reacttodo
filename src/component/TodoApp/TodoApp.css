@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    background-color: rgb(89, 28, 149);
+    font-family: sans-serif;
+}
+h1{
+    color: rgb(212, 165, 250);
+}
+
+.todo-container{
+    background-color: rgb(148, 77, 220);
+    width: 500px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    /* position: absolute; */
+
+    /* left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); */
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 100, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+
+}
+
+ul{
+    background-color: rgb(139, 73, 204);
+    border-radius: 10px;
+    margin: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); 
+    min-height: 200px;
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 20px;
+    /* min-height: ; */
+
+}
+
+ul li{
+    display: flex;
+    list-style: none;
+    background-color: rgb(96, 43, 149);
+    color: rgb(212, 165, 250);
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+
+}
+ul li i{
+    text-align: right;
+    color: rgb(212, 165, 250);
+    flex: 1;
+    cursor: pointer;
+}
+.input-section input{
+    outline: none;
+    width: 93%;
+    background-color: rgb(152, 83, 221);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); 
+    
+    border-radius: 5px;
+    border: 1px solid rebeccapurple;
+    color: rgb(212, 165, 250);
+    /* width: 90%; */
+    box-sizing: border-box;
+    padding: 15px;
+
+
+}
+
+input::placeholder{
+    color: rgb(212, 165, 250);
+}
